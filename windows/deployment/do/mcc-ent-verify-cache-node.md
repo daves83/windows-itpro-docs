@@ -34,6 +34,8 @@ These steps should be taken after deploying Connected Cache software to a [Windo
 
     `http://[HostMachine-IP-address]/filestreamingservice/files/7bc846e0-af9c-49be-a03d-bb04428c9bb5/Microsoft.png?cacheHostOrigin=dl.delivery.mp.microsoft.com`
 
+   ### In the Requirements section and in the Deploy section, there is no reference to configuring a public IP address to allow clients to communicate with the MCC server.
+
     If successful, the Windows client device should begin to download a small image file from the Connected Cache node.
 
 1. To check how much content an individual Windows client has downloaded from a Connected Cache node, open the [Delivery Optimization activity monitor](/microsoft-365-apps/updates/delivery-optimization#viewing-data-about-the-use-of-delivery-optimization) on the Windows client device.
